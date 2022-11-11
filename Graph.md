@@ -111,3 +111,54 @@ flowchart TD
 flowchart TD
     B[\Go shopping/]
 ```
+
+### Double circle
+
+```mermaid
+flowchart TD
+    id(((this tis the text in the circle)))
+```
+
+## Links between nodes
+
+### A link with arrow head
+
+```mermaid
+flowchart LR
+    A--->B
+```
+
+### An open link
+
+```mermaid
+flowchart LR
+    A --- B
+```
+
+### An invisible link
+
+```mermaid
+flowchart LR
+    A ~~~ B
+```
+
+### Text on links
+
+```mermaid
+flowchart LR
+    A-- this is the text! ---B
+```
+
+or
+
+```mermaid
+flowchart LR
+    A---|this is the text|B
+```
+
+### A link with arrow thead and text
+
+```mermaid
+flowchart LR
+    A-->|text|B
+```
